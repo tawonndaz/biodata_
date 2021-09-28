@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+!NIM
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:text="NIM : A11.2020.80005"/>
+
+!Nama Lengkap
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:text="Nama : Jimmy Hedyananta"/>
+
+!Hobby
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:text="Hobby : Bulutangkis"/>
+
+!Deskripsi
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="DESKRIPSI"
+        android:id="@+id/judul"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Saya adalah seorang yang telah bekerja di PT Gudang Garam sebagai pengelola gudang. Teliti, cepat dan rapi dalam mengerjakan tugas guna meningkatkan efisiensi kerja. Memiliki tanggung jawab tinggi terhadap stok barang."
+        android:id="@+id/isi"/>
+
+!Email
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:autoLink="email"
+        android:linksClickable="true"
+        android:padding="15dp"
+        android:text="Email : jhedyananta2@gmail.com"
+        android:textColorLink="#8495EF" />
+
+!Alamat
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:padding="15dp"
+        android:text="Alamat : https://maps.app.goo.gl/ATGBiJWT7azLh9bD8"
+        android:textColorLink="#F10052" />
+
+!Telepon
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="phone"
+        android:linksClickable="true"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:text="082336134341"
+        android:textColorLink="#000000" />
+
+!Foto
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/aku"/>
+
+</LinearLayout>
